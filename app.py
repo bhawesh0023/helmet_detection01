@@ -1,5 +1,9 @@
-import gdown
 import os
+
+# 🔥 gdown install (important)
+os.system("pip install gdown")
+
+import gdown
 from ultralytics import YOLO
 
 # 🔥 File ID
