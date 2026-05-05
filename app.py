@@ -1,5 +1,5 @@
 import os
-import gdown
+
 from ultralytics import YOLO
 import streamlit as st
 from PIL import Image
@@ -9,8 +9,6 @@ import numpy as np
 file_id = "1KL67VORf-RKhuHyyDoTK4qNKLhQZKyYA"
 url = f"https://drive.google.com/uc?id={file_id}"
 
-if not os.path.exists("helmet1.pt"):
-    gdown.download(url, "helmet1.pt", quiet=False)
 
 # 🔥 Load model (only once)
 model = YOLO("helmet1.pt")
