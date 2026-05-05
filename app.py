@@ -11,7 +11,7 @@ url = f"https://drive.google.com/uc?id={file_id}"
 
 
 # 🔥 Load model (only once)
-model = YOLO("helmet1.pt")
+model = YOLO("https://drive.google.com/uc?id=1KL67VORf-RKhuHyyDoTK4qNKLhQZKyYA")
 
 # Page config
 st.set_page_config(page_title="Helmet Detection", layout="centered")
